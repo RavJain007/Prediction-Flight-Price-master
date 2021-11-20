@@ -5,7 +5,7 @@ import seaborn as sns
 
 sns.set()
 
-train_data = pd.read_excel("C:/RJDrives/Study/Python/Others/Project for github/Flight Prediction/Data/Data_Train.xlsx")
+train_data = pd.read_excel("./data/Data_Train.xlsx")
 pd.set_option('display.max_columns', None)
 df = train_data
 train_data.dropna(inplace=True)
@@ -126,7 +126,7 @@ train_data.replace({"non-stop": 0, "1 stop": 1, "2 stops": 2, "3 stops": 3, "4 s
 data_train = pd.concat([train_data, Airline, Source, Destination], axis = 1)
 
 data_train.drop(["Airline", "Source", "Destination"], axis = 1, inplace = True)
-test_data = pd.read_excel('C:/RJDrives/Study/Python/Others/Project for github/Flight Prediction/Data/Test_set.xlsx')
+test_data = pd.read_excel('./data/Test_set.xlsx')
 test_data["Journey_day"] = pd.to_datetime(test_data.Date_of_Journey, format="%d/%m/%Y").dt.day
 test_data["Journey_month"] = pd.to_datetime(test_data["Date_of_Journey"], format = "%d/%m/%Y").dt.month
 test_data.drop(["Date_of_Journey"], axis = 1, inplace = True)
