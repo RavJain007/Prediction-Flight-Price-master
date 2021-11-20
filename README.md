@@ -9,8 +9,7 @@
   * [Future scope of project](#future-scope)
 
 
-## Demo
-Link: 
+## Demo 
 
 [![](https://i.imgur.com/mAHRBta.jpg)]
 
