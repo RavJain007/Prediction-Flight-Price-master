@@ -1,6 +1,7 @@
 body {
-    background-color: #FFD5E5;
+    background-color: #ffc87c;
     text-align: center;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodfon.com%2Fwallpaper%2Fboeing-samolet-nebo.html&psig=AOvVaw0Bdc6rQb2I_GatJ5g7xOqO&ust=1637481219595000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDx4oi7pvQCFQAAAAAdAAAAABAK");
 }
 
 .navbar {
@@ -14,3 +15,6 @@ a {
 a:hover {
     color: #f0f0f0;
   }
+
+
+
